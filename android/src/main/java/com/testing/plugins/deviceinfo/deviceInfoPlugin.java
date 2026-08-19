@@ -5,18 +5,20 @@ import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
+import android.os.Build;
 
 @CapacitorPlugin(name = "deviceInfo")
 public class deviceInfoPlugin extends Plugin {
 
-    private deviceInfo implementation = new deviceInfo();
+  //Manufacture
+  @PluginMethod
+  public void deviceInfoManufacture(PluginCall call) {
+    String manufacturer = Build.MANUFACTURER;
 
-    @PluginMethod
-    public void echo(PluginCall call) {
-        String value = call.getString("value");
+    JSObject ret = new JSObject();
+    ret.put("manufacture",manufacturer);
+    call.resolve(ret);
+  }
 
-        JSObject ret = new JSObject();
-        ret.put("value", implementation.echo(value));
-        call.resolve(ret);
-    }
+  //Brand
 }

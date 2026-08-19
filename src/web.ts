@@ -3,8 +3,7 @@ import { WebPlugin } from '@capacitor/core';
 import type { deviceInfoPlugin } from './definitions';
 
 export class deviceInfoWeb extends WebPlugin implements deviceInfoPlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+  async deviceInfoManufacture():Promise<{manufacture:string}>{
+    throw new Error("This plugin not compatible for web")
   }
 }
