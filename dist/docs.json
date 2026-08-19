@@ -14,6 +14,106 @@
         "docs": "",
         "complexTypes": [],
         "slug": "deviceinfomanufacture"
+      },
+      {
+        "name": "deviceInfoBrand",
+        "signature": "() => Promise<{ brand: string; }>",
+        "parameters": [],
+        "returns": "Promise<{ brand: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "deviceinfobrand"
+      },
+      {
+        "name": "deviceInfoModel",
+        "signature": "() => Promise<{ model: string; }>",
+        "parameters": [],
+        "returns": "Promise<{ model: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "deviceinfomodel"
+      },
+      {
+        "name": "deviceInfoBoard",
+        "signature": "() => Promise<{ board: string; }>",
+        "parameters": [],
+        "returns": "Promise<{ board: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "deviceinfoboard"
+      },
+      {
+        "name": "deviceInfoHardware",
+        "signature": "() => Promise<{ hardware: string; }>",
+        "parameters": [],
+        "returns": "Promise<{ hardware: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "deviceinfohardware"
+      },
+      {
+        "name": "deviceInfoOSVersion",
+        "signature": "() => Promise<{ osVersion: string; }>",
+        "parameters": [],
+        "returns": "Promise<{ osVersion: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "deviceinfoosversion"
+      },
+      {
+        "name": "deviceWidth",
+        "signature": "() => Promise<{ width: number; }>",
+        "parameters": [],
+        "returns": "Promise<{ width: number; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "devicewidth"
+      },
+      {
+        "name": "deviceHeight",
+        "signature": "() => Promise<{ height: number; }>",
+        "parameters": [],
+        "returns": "Promise<{ height: number; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "deviceheight"
+      },
+      {
+        "name": "deviceDensity",
+        "signature": "() => Promise<{ density: number; }>",
+        "parameters": [],
+        "returns": "Promise<{ density: number; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "devicedensity"
+      },
+      {
+        "name": "deviceTotalRam",
+        "signature": "() => Promise<{ totalRam: number; }>",
+        "parameters": [],
+        "returns": "Promise<{ totalRam: number; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "devicetotalram"
+      },
+      {
+        "name": "deviceAvailableRam",
+        "signature": "() => Promise<{ availableRam: number; }>",
+        "parameters": [],
+        "returns": "Promise<{ availableRam: number; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "deviceavailableram"
       }
     ],
     "properties": []
