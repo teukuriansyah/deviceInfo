@@ -1,0 +1,25 @@
+{
+  "api": {
+    "name": "deviceInfoPlugin",
+    "slug": "deviceinfoplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "deviceInfoManufacture",
+        "signature": "() => Promise<{ manufacture: string; }>",
+        "parameters": [],
+        "returns": "Promise<{ manufacture: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "deviceinfomanufacture"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
