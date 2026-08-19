@@ -36,7 +36,7 @@ public class deviceInfoPlugin extends Plugin {
   //Model
   @PluginMethod
   public void deviceInfoModel(PluginCall call) {
-    String model = Build.Model;
+    String model = Build.MODEL;
 
     JSObject ret = new JSObject();
     ret.put("model",model);
